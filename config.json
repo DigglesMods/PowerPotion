@@ -1,0 +1,18 @@
+{
+	"version" : "1.0",
+	"author" : "Chris1231 (idea: Heidenpast)",
+	
+	"name" :  {
+		"en" : "PowerPotion",
+		"de" : "Powertrank"
+	},
+	"description" : {
+		"en" : "Add PowerPotion as new item to the game.",
+		"de" : "Neues Item Powertrank wird dem Spiel hinzugefügt."
+	},
+	
+	"links" : {
+		"download" : "https://github.com/DigglesMods/PowerPotion/releases",
+		"wiki" : "https://github.com/DigglesMods/PowerPotion/wiki"
+	}
+}

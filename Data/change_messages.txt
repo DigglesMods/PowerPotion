@@ -9,6 +9,7 @@ fr "Powerdrink"
 it "Powerdrink"
 nl "Powerdrink"
 es "Powerdrink"
+pl "Napój mocy"
 
 
 $end

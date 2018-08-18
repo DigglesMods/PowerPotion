@@ -13,7 +13,7 @@ $end
 
 $start
 $after
-set tttitems_Brauerei				{
+set tttitems_Brauerei				{Bier 
 $put
 Bier_ 
 $end

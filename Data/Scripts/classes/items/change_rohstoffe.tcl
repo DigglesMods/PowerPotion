@@ -2,7 +2,7 @@ $start
 $before
 def_class Pilzschnaps 
 $put
-def_class Bier_ food material 1 {} {
+def_class Powerpotion food material 1 {} {
 	call scripts/misc/autodef.tcl
 	call scripts/classes/items/calls/resources.tcl
 	class_defaultanim bier.standard
@@ -13,7 +13,7 @@ def_class Bier_ food material 1 {} {
 		} elseif {$animname == "drink"} {
 			set_anim this bier.krug 0 $ANIM_STILL
 		} else {
-			log "Bier_ : set_animation : illegal Animation"
+			log "Powerpotion : set_animation : illegal Animation"
 		}
 	}
 
@@ -22,7 +22,7 @@ def_class Bier_ food material 1 {} {
 	}
 
 	method reaction {user} {
-		foreach entry $stt_Bier__reaction {
+		foreach entry $stt_Powerpotion_reaction {
 			eval "add_attrib $user $entry"
 		}
 	}
@@ -31,7 +31,7 @@ def_class Bier_ food material 1 {} {
 		call scripts/misc/autodef.tcl
 		call scripts/classes/items/calls/resources.tcl
 		set_anim this bier.standard 0 $ANIM_STILL
-		set sttsection_tocall "Bier_"
+		set sttsection_tocall "Powerpotion"
 		call scripts/misc/sparetimetunes.tcl
 	}
 }

@@ -2,13 +2,13 @@ $start
 $before
 ## "Bier"
 $put
-## "Bier_"
-en "Powerdrink"
+## "Powerpotion"
+en "Power Potion"
 de "Powertrank"
-fr "Powerdrink"
-it "Powerdrink"
-nl "Powerdrink"
-es "Powerdrink"
+fr "Power Potion"
+it "Power Potion"
+nl "Power Potion"
+es "Power Potion"
 pl "Napój mocy"
 
 

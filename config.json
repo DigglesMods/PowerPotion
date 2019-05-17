@@ -14,5 +14,16 @@
 	"links" : {
 		"download" : "https://github.com/DigglesMods/PowerPotion/releases",
 		"wiki" : "https://github.com/DigglesMods/PowerPotion/wiki"
-	}
+	},
+	
+	"directories" : [
+		{
+			"type" : "data",
+			"path" : "Data_HD",
+			"condition" : {
+				"type" : "mod",
+				"id" : "DigglesHDmod"
+			}
+		}
+	]
 }

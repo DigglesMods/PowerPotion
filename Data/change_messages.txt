@@ -4,6 +4,7 @@ $before
 $put
 ## "Powerpotion"
 en "Power Potion"
+cz "Power Potion"
 de "Powertrank"
 fr "Power Potion"
 it "Power Potion"
